@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+
+    <!-- links to the stylesheet and fontawesome for icons-->
+    <link rel="stylesheet" type="text/css" href="css/myStyle2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+
+    <!--favicon and title-->
+    <link rel="icon" href="images/music.jpg">
+    <title>Night Pulse Festival 2020</title>
+
+    <!--   style elements to configure hover effects on images,cards,links and buttons-->
+    <style>
+        a:hover {
+            color: black;
+            font-family: 'Inter', sans-serif;
+
+
+        }
+
+        .btn:hover {
+            transition-duration: 0.4s;
+            background-color: #BADFE7;
+            color: white;
+            font-family: 'Inter', sans-serif;
+        }
+
+
+        .image {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .container:hover .image {
+            opacity: 0.3;
+        }
+
+        .container:hover .middle {
+            opacity: 2;
+        }
+
+        .text {
+            background-color: #FFEEE7;
+            color: black;
+            font-size: 16px;
+            padding: 16px 32px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .card {
+            /* Add shadows to create the "card" effect */
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+
+        /* On mouse-over, add a deeper shadow */
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        /* Add some padding inside the card container */
+        .container {
+            padding: 2px 16px;
+        }
+
+        .card-img {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <!--jumbotron image banner-->
+
+    <section class="jumbotron  jumbotron-image shadow" style="background-image: url(https://image.jimcdn.com/app/cms/image/transf/dimension=1550x1012:format=jpg/path/sa6549607c78f5c11/image/i82f8384a1348ab84/version/1554202007/tomorrowland-best-summer-music-festivals-europe.jpg);">
+
+
+
+
+
+
+
+        <div class="d-flex justify-content-between">
+
+            <!--social media icons -->
+
+            <ul class="social-network social-circle">
+
+                <li><a href="https://www.facebook.com" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com" class="icoYoutube" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+
+
+
+            <!--sign up button-->
+            <form class="form-inline ">
+                <input class="form-control mr-sm-2" type="search" placeholder="Enter your email" aria-label="Search">
+                <button type="btn" class="btn btn-outline bg my-2 my-sm-0"><a class="bg" href="signup.html">Sign Up</a></button>
+            </form>
+
+
+
+        </div>
+        <!--
+website logo-->
+
+        <div class="text-center ">
+            <img src="images/Logo3.5.png" class="img-fluid" width="25%">
+        </div>
+
+
+        <!--
+
+navbar and links
+-->
+
+    </section>
+    <ul class="nav  justify-content-center move body ">
+        <li class="nav-item">
+            <a class="nav-link  text-dark" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="#">LINE-UP</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" href="#">GUIDE</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark " href="#">INFO</a>
+
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark " href="#">CONTACT</a>
+
+        </li>
+
+
+    </ul>
+    <!--   background colour and image grid-->
+
+    <div class="bg-dark py-5">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="vl"></div>
+                <div class="col-lg-11">
+
+                    <figure class="image">
+                        <img src="images/festi10.jpg" class="card-img" alt="...">
+                        <div class="middle">
+                            <div class="text btn bg">Book Now</div>
+
+                        </div>
+
+                    </figure>
+
+                </div>
+           <!-- coloured borders that surround the image,was intended to be interactive to resemble printable tickets,and when clicked can direct the user to buying tickets-->
+                
+                <div class="vl"></div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-6">
+                        <img class="mw-100 mh-100" src="images/festi6jpg.jpg" alt="Max-width 100%">
+                    </div>
+
+
+
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <a href="LinkToImage">
+                            <img class="mh-100" alt="AltText" src="images/festilight.jpg" class="img-responsive">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-dark py-5">
+        <div class="container">
+            <div class="row-12">
+
+                <!--carousel-->
+                <div class="row-12">
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/what.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/festi8.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="images/festi9.jpg" alt="Third slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--event cards and are hoverable with a shadow effect.-->
+    <div class="container bg">
+
+        <h1>Events</h1>
+        <div class="row">
+            <article class="card fl-left">
+                <section class="date">
+                    <time datetime="28th nov">
+                        <span>28</span><span>nov</span>
+                    </time>
+                </section>
+                <section class="card-cont">
+                    <small>Juice WRLD</small>
+                    <h3>live in sydney</h3>
+                    <div class="even-date">
+                        <i class="fa fa-calendar"></i>
+                        <time>
+                            <span>monday 28 november 2020</span>
+                            <span>08:55pm to 12:00 am</span>
+                        </time>
+                    </div>
+                    <div class="even-info">
+                        <i class="fa fa-map-marker"></i>
+                        <p>
+                            nexen square for people australia, sydney
+                        </p>
+                    </div>
+                    <a href="#">tickets</a>
+                </section>
+            </article>
+            <article class="card fl-left">
+                <section class="date">
+                    <time datetime="23th feb">
+                        <span>11</span><span>Jan</span>
+                    </time>
+                </section>
+                <section class="card-cont">
+                    <small>Jeremy Zucker</small>
+                    <h3>world tour</h3>
+                    <div class="even-date">
+                        <i class="fa fa-calendar"></i>
+                        <time>
+                            <span>tuesday 11 january 2021</span>
+                            <span>07:55pm to 1:00 am</span>
+                        </time>
+                    </div>
+                    <div class="even-info">
+                        <i class="fa fa-map-marker"></i>
+                        <p>
+                            croke park dublin, dublin,ireland
+                        </p>
+                    </div>
+                    <a href="#">tickets</a>
+                </section>
+            </article>
+        </div>
+        <div class="row">
+            <article class="card fl-left">
+                <section class="date">
+                    <time datetime="23th feb">
+                        <span>28</span><span>dec</span>
+                    </time>
+                </section>
+                <section class="card-cont">
+                    <small>Joji</small>
+                    <h3>music kaboom festival</h3>
+                    <div class="even-date">
+                        <i class="fa fa-calendar"></i>
+                        <time>
+                            <span>wednesday 28 december 2020</span>
+                            <span>06:55pm to 11:00 pm</span>
+                        </time>
+                    </div>
+                    <div class="even-info">
+                        <i class="fa fa-map-marker"></i>
+                        <p>
+                            metlife stadium , new jersey
+                        </p>
+                    </div>
+                    <a class="evntbtn" href="#">booked</a>
+                </section>
+            </article>
+            <article class="card fl-left">
+                <section class="date">
+                    <time datetime="23th feb">
+                        <span>2</span><span>feb</span>
+                    </time>
+                </section>
+                <section class="card-cont">
+                    <small>Travis Scott</small>
+                    <h3>hello dubai festival</h3>
+                    <div class="even-date">
+                        <i class="fa fa-calendar"></i>
+                        <time>
+                            <span>wednesday 2 feb 2021</span>
+                            <span>09:55pm to 3:00 am</span>
+                        </time>
+                    </div>
+                    <div class="even-info">
+                        <i class="fa fa-map-marker"></i>
+                        <p>
+                            dubai festival plaza, dubai
+                        </p>
+                    </div>
+                    <a class="evntbtn" href="#">cancel</a>
+                </section>
+            </article>
+        </div>
+
+    </div>
+    <!--bootstrap cards, places to stay are similar to accomodation suggestions on holidays-->
+    <div class="bg-dark py-5">
+        <h2 class="text-center">Places To Stay</h2>
+
+        <div class="card-deck">
+            <div class="card">
+                <img src="images/campsite.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title bg6">Camp Ligma</h5>
+                    <p class="card-text bg">The Campsite is located about 1.5 miles from the seafront, on Bulverton Road, B3176, and is open from noon on Wednesday 29th July, until noon on Saturday 8th August. Children under 16 must be accompanied by a parent or adult guardian.</p>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/campsite2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title bg6">Camp Badonkadonk</h5>
+                    <p class="card-text bg"> Located at the Pima county fairgrounds in Tucson, Arizona, attractions are a plenty, combining music and art into a unique visual blend.
+                        About 50,000 campers will gather together with their canvas tents from different nations in this 3-day camping music festival event as the organizers are celebrating their 13th year.</p>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/campsite3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title bg6">Camp Giggidy</h5>
+                    <p class="card-text bg"> The camp will host legendary and multi-platinum rock icons like Metallica, Lynyrd Skynyrd, Godsmack, Staind, Papa Roach, Cypress Hill and a lot more for 3 days. The camp is equipped with shuttle rides, snack & beverage stalls, shower facilities, including, 24 hours medical and security staff.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--header type banner to separate footer and cards-->
+
+    <div class="header">
+        <h1>Experience Night Pulse </h1>
+        <h3 class="bg">Music. Art. Food. Experiences. Community. Surprises.</h3>
+        <p>The Night Pulse experience encompasses all of these and is unlike any other festival out there. Built by New Yorkers, for New Yorkers, the festival is always evolving, always entertaining, and always striving to exceed your expectations.</p>
+    </div>
+
+
+
+    <!--footer-->
+    <section>
+        <footer class="page-footer font-small unique-color-dark bg-dark">
+
+
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left mt-5 ">
+
+                <!-- Grid row -->
+                <div class="row mt-3">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                        <!-- Content -->
+                        <h6 class="text-uppercase font-weight-bold text-white">Night Pulse</h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p class="text-white"> Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipisicing elit.</p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold text-white">Tickets</h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a class="text-white" href="#!">1-Day pass</a>
+                        </p>
+                        <p>
+                            <a class="text-white" href="#!">Festival Entry-ticket</a>
+                        </p>
+                        <p>
+                            <a class="text-white" href="#!">Family Ticket</a>
+                        </p>
+                        <p>
+                            <a class="text-white" href="#!">PA ticket</a>
+                        </p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold text-white">Useful links</h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a class="text-white" href="#!">About Us</a>
+                        </p>
+                        <p>
+                            <a class="text-white" href="#!">News</a>
+                        </p>
+                        <p>
+                            <a class="text-white" href="#!">Careers</a>
+                        </p>
+                        <p>
+                            <a class="text-white" href="#!">Help</a>
+                        </p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold text-white">Contact</h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto text-white" style="width: 60px;">
+                        <p class="text-white">
+                            <i class="fas fa-home mr-3 bg"></i> New York, NY 10012, US
+                        </p>
+                        <p class="text-white">
+                            <i class="fas fa-envelope mr-3 bg"></i> npulse@gmail.com
+                        </p>
+                        <p class="text-white">
+                            <i class="fas fa-phone mr-3 bg"></i> + 01 234 567 88
+                        </p>
+                        <p class="text-white">
+                            <i class="fas fa-print mr-3 bg"></i> + 01 234 567 89
+                        </p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 text-white">NightPulse © 2020 Copyright:
+
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+    </section>
+    <!-- Footer -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+
+</body>
+<!-- Footer -->
+
+</html>

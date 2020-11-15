@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-color: #BADFE7;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+.fl-left {
+    float: left
+}
+
+.fl-right {
+    float: right
+}
+
+.container {
+    width: 90%;
+    margin: 100px auto
+}
+
+h1 {
+
+    text-transform: uppercase;
+    font-weight: 900;
+    border-left: 10px solid #f6f6f6;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+h2 {
+   color:white;
+
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 90px
+}
+
+.row {
+    overflow: hidden
+}
+
+.card {
+    display: table-row;
+    width: 49%;
+    background-color: #fff;
+    color: #989898;
+    margin-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    border-radius: 4px;
+    position: relative
+}
+
+.card + .card {
+    margin-left: 2%
+}
+
+.date {
+    display: table-cell;
+    width: 25%;
+    position: relative;
+    text-align: center;
+    border-right: 2px dashed #dadde6
+}
+
+.date:before,
+.date:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #BADFE7;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    z-index: 1;
+    border-radius: 50%
+}
+
+.date:after {
+    top: auto;
+    bottom: -15px
+}
+
+.date time {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.date time span {
+    display: block
+}
+
+.date time span:first-child {
+    color: #2b2b2b;
+    font-weight: 600;
+    font-size: 250%
+}
+
+.date time span:last-child {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: -10px
+}
+
+.card-cont {
+    display: table-cell;
+    width: 60%;
+    font-size: 85%;
+    padding: 10px 10px 30px 50px
+}
+
+.card-cont h3 {
+    color: #3C3C3C;
+    font-size: 130%
+}
+
+.row:last-child .card:last-of-type .card-cont h3 {
+    text-decoration: line-through
+}
+
+.card-cont > div {
+    display: table-row
+}
+
+.card-cont .even-date i,
+.card-cont .even-info i,
+.card-cont .even-date time,
+.card-cont .even-info p {
+    display: table-cell
+}
+
+.card-cont .even-date i,
+.card-cont .even-info i {
+    padding: 5% 5% 0 0
+}
+
+.card-cont .even-info p {
+    padding: 30px 50px 0 0
+}
+
+.card-cont .even-date time span {
+    display: block
+}
+
+.card-cont a {
+    display: block;
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+    background-color: #FFEEE7;
+    color: grey;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 2px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px
+}
+
+.row:last-child .card:first-child .card-cont a {
+    background-color: #BADFE7;
+}
+
+.row:last-child .card:last-child .card-cont a {
+    background-color: #ededed;
+}
+
+@media screen and (max-width: 860px) {
+    .card {
+        font-family: 'Inter', sans-serif;
+        display: block;
+        float: none;
+        width: 100%;
+        margin-bottom: 10px
+    }
+
+    .card + .card {
+        margin-left: 0
+    }
+
+    .card-cont .even-date,
+    .card-cont .even-info {
+        font-size: 75%
+    }
+}
+
+.bg {
+    color: #000000;
+     font-family: 'Inter', sans-serif;
+}
+
+.bg2 {
+    color: #BADFE7;
+}
+
+.bg3 {
+    color: #FFEEE7;
+}
+
+
+.bg4 {
+    background-color: #FFEEE7;
+}
+
+.bg5 {
+    background-color: #BADFE7;
+}
+
+.bg6 {
+    color: #413f3d;
+}
+
+.move {
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+
+.social-network a.icoFacebook:hover {
+    background-color: #BADFE7;
+}
+
+.social-network a.icoTwitter:hover {
+    background-color: #BADFE7;
+}
+
+.social-network a.icoInstagram:hover {
+    background-color: #BADFE7;
+}
+
+.social-network a.icoVimeo:hover {
+    background-color: #BADFE7;
+}
+
+.social-network a.icoYoutube:hover {
+    background-color: #BADFE7;
+}
+
+.social-network a.icoRss:hover i,
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i,
+.social-network a.icoVimeo:hover i,
+.social-network a.icoLinkedin:hover i {
+    color: #fff;
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #D3D3D3;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.header {
+    padding: 60px;
+    text-align: left;
+    background: #BADFE7;
+    color: black;
+    font-size: 20px;
+
+}
+
+.vl {
+    border-left: 47px solid #FFEEE7;
+    height: 450px;
+}
